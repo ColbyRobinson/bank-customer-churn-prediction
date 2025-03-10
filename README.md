@@ -88,19 +88,19 @@ The Exploratory Data Analysis (EDA) phase began by loading and inspecting the Ba
 The data preprocessing phase involved several critical steps to ensure the data was suitable for modeling. First, Categorical variables underwent one-hot encoding, label encoding, and ordinal encoding to transform them into numeric formats compatible with machine learning models. Feature scaling was applied to normalize numeric variables, specifically using Min-Max scaling, ensuring uniformity across the dataset. Furthermore, the dataset was split into training and test sets, maintaining stratified sampling to preserve the original class distribution of the churn variable. This careful preprocessing facilitated optimal model performance and comparability across various algorithms.
 
 Label Encoding was done for the following variables:
-[Gender]
+'[Gender]'/
 
 One-Hot Encoding was done for the following variables:
-[Geography]
+'[Geography]'/
 
 Ordinal Encoding was done for the following variables:
-[Card Type]
+'[Card Type]'/
 
 Identify Outliers & Applied Winsorization:
-Outliers were detected for [Credit Score], [Age], and [NumOfProducts] to apply winsorization and cap the extreme values.
+Outliers were detected for '[Credit Score], [Age], and [NumOfProducts]'/ to apply winsorization and cap the extreme values.
 
 Feature Scaling & Transformation:
-Standard Scaler from sklearn was used to apply scaling to: [Credit Score], [Age], [Tenure], [Balance], [NumOfProducts], [Estimated Salary], [PointEarned]
+Standard Scaler from sklearn was used to apply scaling to: '[Credit Score], [Age], [Tenure], [Balance], [NumOfProducts], [Estimated Salary], [PointEarned]'/
 
 ## Training & Tuning Models
 
