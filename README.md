@@ -27,20 +27,22 @@ bank-customer-churn-prediction/
 │── LICENSE                           <- Project License
 ```
 
-## Model Comparison Results
+## Model Comparison Results (Test)
 
 | Model               | Accuracy | Precision | Recall | F1 Score | Rank |
 | ------------------- | -------- | --------- | ------ | -------- | ---- |
-| Decision Tree       | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| Random Forest       | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| XGBoost             | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| Logistic Regression | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| SVM                 | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| Neural Network      | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
-| KNN                 | XX.XX%   | XX.XX%    | XX.XX% | XX.XX%   | #X   |
+| XGBoost             | 73.10%   | 69.21%    | 83.14% | 75.54%   | #1   |
+| Decision Tree       | 75.14%   | 75.21%    | 74.96% | 75.10%   | #2   |
+| Random Forest       | 74.33%   | 74.07%    | 74.80% | 74.43%   | #3   |
+| SVM                 | 79.26%   | 49.42%    | 77.25% | 60.28%   | #4   |
+| Neural Network      | 78.80%   | 48.67%    | 74.79% | 58.97%   | #5   |
+| KNN                 | 74.43%   | 42.84%    | 76.43% | 54.91%   | #6   |
+| Logistic Regression | 75.00%   | 42.65%    | 65.96% | 51.79%   | #7   |
 
-Best Performing Model: `[Insert Best Model Name]`\
-Key Features Influencing Churn: `[Feature 1, Feature 2, Feature 3]`\
+Best Performing Model: ` XGBoost `\
+Key Features Influencing Churn: `[Age, Number of Products Purchased/Used, Balanced, Active Member]`\
+![image](https://github.com/user-attachments/assets/7d4e4adf-45b1-48e8-848b-8478339acd81)
+
 Business Impact: `"This model helps identify at-risk customers early, allowing targeted retention strategies."`
 
 ## How to Run the Notebooks
@@ -50,15 +52,11 @@ Business Impact: `"This model helps identify at-risk customers early, allowing t
    git clone https://github.com/ColbyRobinson/bank-customer-churn-prediction.git
    cd bank-customer-churn-prediction
    ```
-2. **Install dependencies (Optional - If you have a ****************************************`requirements.txt`**************************************** file)**
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Open Jupyter Notebook:**
+2. **Open Jupyter Notebook:**
    ```bash
    jupyter notebook
    ```
-4. **Run the notebooks in the following order:**
+3. **Run the notebooks in the following order:**
    - `Data_preprocessing.ipynb`
    - `EDA_bank_customer_churn.ipynb`
    - `Modeling_DT_RF_XG.ipynb`
