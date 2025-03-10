@@ -31,30 +31,30 @@ bank-customer-churn-prediction/
 
 The Exploratory Data Analysis (EDA) phase began by loading and inspecting the Bank Customer Churn dataset. A comprehensive analysis was conducted, starting with an assessment of missing values, duplicate records, and data types. Detailed descriptive statistics and visualizations were used to understand feature distributions and identify potential outliers. The churn rate distribution was visualized to understand class imbalance. Relationships between variables were explored using correlation analysis, boxplots, histograms, and density plots to detect meaningful patterns or anomalies. Important insights regarding correlations and potential predictive factors of churn were identified, guiding subsequent preprocessing and modeling decisions.
 
-###Churn Distribution:
+### Churn Distribution:
 
 ![image](https://github.com/user-attachments/assets/77351637-6b50-4d67-9211-ab6dc036f188)
 
 
 
-###Summary Statistics:
+### Summary Statistics:
 
 ![image](https://github.com/user-attachments/assets/4044397c-6d31-4097-bf4a-01389d53c815)
 
 
 
-###Correlation Matrix:
+### Correlation Matrix:
 
 ![image](https://github.com/user-attachments/assets/ff30de1a-21d3-4912-ba1d-607091dabd66)
 
 
 
-###Feature Distributions:
+### Feature Distributions:
 
 ![image](https://github.com/user-attachments/assets/523fac64-f43d-449d-9810-bfd130f5d3d3)
 
 
-###Churn Rate by Categorical Variables:
+### Churn Rate by Categorical Variables:
 
 ![image](https://github.com/user-attachments/assets/b3428cb8-12cc-44a5-9afb-48d5622893eb)
 
@@ -68,7 +68,7 @@ The Exploratory Data Analysis (EDA) phase began by loading and inspecting the Ba
 
 
 
-###Feature Distributions by Churn Status:
+### Feature Distributions by Churn Status:
 
 ![image](https://github.com/user-attachments/assets/f4e53d49-7abb-4d88-bd9a-ab8c1dd27fcd)
 
@@ -78,7 +78,7 @@ The Exploratory Data Analysis (EDA) phase began by loading and inspecting the Ba
 
 
 
-###Boxplots for Outlier Detection:
+### Boxplots for Outlier Detection:
 
 ![image](https://github.com/user-attachments/assets/057f8994-a4fc-4cea-a6a7-1470691a0266)
 
@@ -106,7 +106,7 @@ Standard Scaler from sklearn was used to apply min-max scaling to: [Credit Score
 
 The training phase utilized a wide array of machine learning algorithms, including Logistic Regression, Support Vector Machines (SVM), Neural Networks (NN), K-Nearest Neighbors (KNN), Decision Trees, Random Forests, and XGBoost. Random Undersampling was performed on the preprocessed dataset to resolve the issue of having an imbalanced dataset. Feature selection was performed using Recursive Feature Elemination (RFE). Hyperparameter tuning was performed using Grid Search with cross-validation, optimizing each model’s predictive performance. Evaluation metrics such as Accuracy, Precision, Recall, and F1-score were systematically employed to assess model performance. The Decision Tree, Random Forest, and XGBoost algorithms particularly benefited from tuning and emerged among the top-performing models based on Recall, F1 scores, and balanced accuracy metrics. Since acquiring new customers is more expensive than retaining your current customers, the models were tuned to optimize Recall while maintaining a proficient score for all other assessment measures. The best-performing models were identified based on test dataset results, with XGBoost notably outperforming others on recall and overall F1-score, establishing it as the final model choice for predicting customer churn.
 
-###Logistic Regression:
+### Logistic Regression:
 
 ![image](https://github.com/user-attachments/assets/b0341b9c-6fbd-4388-8088-90d8511a79c3)
 
@@ -116,7 +116,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 
 
 
-###SVM:
+### SVM:
 
 ![image](https://github.com/user-attachments/assets/003a3c9f-32a3-4fd0-9216-ef9e8f3943eb)
 
@@ -126,7 +126,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 
 
 
-###Neural Network:
+### Neural Network:
 
 ![image](https://github.com/user-attachments/assets/83a19df8-3b34-4bb4-82cf-bf8b50a0bc03)
 
@@ -136,7 +136,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 
 
 
-###KNN: 
+### KNN: 
 
 ![image](https://github.com/user-attachments/assets/e24458b1-a99b-4fc8-9393-02a4925ff07d)
 
@@ -145,7 +145,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 ![image](https://github.com/user-attachments/assets/03ec9ffe-2cda-4f80-9a3f-34d125bebd7c)
 
 
-###Decision Tree:
+### Decision Tree:
 
 ![image](https://github.com/user-attachments/assets/44cdccb0-1885-49a7-933d-c0141d546863)
 
@@ -155,7 +155,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 
 
 
-###Random Forest:
+### Random Forest:
 
 ![image](https://github.com/user-attachments/assets/3a9b095f-2cbd-4bdb-9e56-75bf9093ce93)
 
@@ -165,7 +165,7 @@ The training phase utilized a wide array of machine learning algorithms, includi
 
 
 
-###XGBoost:
+### XGBoost:
 
 ![image](https://github.com/user-attachments/assets/644b3805-aef8-42eb-968d-f087b000007f)
 
