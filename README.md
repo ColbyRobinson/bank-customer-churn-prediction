@@ -8,8 +8,8 @@ Dataset: https://www.kaggle.com/datasets/radheshyamkollipara/bank-customer-churn
 
 This project aims to **predict customer churn** using machine learning models. The goal is to analyze customer behavior, preprocess data, and compare multiple models to determine the best-performing one for churn prediction. This workflow includes:
 
-- **Data Preprocessing**: Cleaning and transforming raw customer data.
 - **Exploratory Data Analysis (EDA)**: Understanding patterns and relationships in the dataset.
+- **Data Preprocessing**: Cleaning and transforming raw customer data.
 - **Model Training & Evaluation**: Training Decision Tree, Random Forest, XGBoost, Logistic Regression, SVM, Neural Networks, and KNN models.
 - **Model Comparison & Assessment**: Evaluating and ranking models based on performance metrics.
 
