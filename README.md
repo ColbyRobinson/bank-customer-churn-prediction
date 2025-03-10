@@ -100,7 +100,7 @@ Identify Outliers & Applied Winsorization:
 Outliers were detected for [Credit Score], [Age], and [NumOfProducts] to apply winsorization and cap the extreme values.
 
 Feature Scaling & Transformation:
-Standard Scaler from sklearn was used to apply min-max scaling to: [Credit Score], [Age], [Tenure], [Balance], [NumOfProducts], [Estimated Salary], [PointEarned]
+Standard Scaler from sklearn was used to apply scaling to: [Credit Score], [Age], [Tenure], [Balance], [NumOfProducts], [Estimated Salary], [PointEarned]
 
 ## Training & Tuning Models
 
