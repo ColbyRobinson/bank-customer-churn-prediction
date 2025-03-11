@@ -194,8 +194,6 @@ Key Features Influencing Churn: `[Age, Number of Products Purchased/Used, Balanc
 
 ![image](https://github.com/user-attachments/assets/7d4e4adf-45b1-48e8-848b-8478339acd81)
 
-Business Impact: `"This model helps identify at-risk customers early, allowing targeted retention strategies."`
-
 ## How to Run the Notebooks
 
 #1. Clone this repository:
